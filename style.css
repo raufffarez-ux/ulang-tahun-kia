@@ -286,7 +286,7 @@ body {
 .cricle{
     position: absolute;
     top: 10px;
-    right: -65px;
+    right: -170px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,13 +311,18 @@ body {
 .text__cricle{
     width: 100px;
     height: 100px;
-    background-color: var(--color-blue);
+    background: url('./images/WhatsApp Image 2026-11-07 at 09.37.16.jpeg') center / cover no-repeat; /* foto menggantikan warna biru */;
     border-radius: 50%;
     border: 5px solid var(--color-black);
     display: flex;
     justify-content: center;
     align-items: center;
     animation: rotateCricle 5s linear infinite;
+}
+/* teks "happy-birthday" dan hati disembunyikan; hapus 2 aturan di bawah ini kalau ingin dimunculkan lagi */
+.text__cricle span,
+.cricle .fa-heart{
+    display: none;
 }
 @keyframes rotateCricle{
     to{
@@ -326,7 +331,7 @@ body {
 }
 .text__cricle span{
     top: 0%;
-    left: 50%;
+    left: 100%;
     position: absolute;
     color: var(--color-black);
     transform: rotate(calc(var(--i) * 24deg));
@@ -777,7 +782,7 @@ body {
     height: calc(100%);
 }
 .boxMail .boxMail-container .card1 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 40px;
     text-transform: uppercase;
     width: 80%;
@@ -793,7 +798,7 @@ body {
 }
 .username{
     position: relative;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 1.3rem;
     text-align: center;
     margin-bottom: 15px;
@@ -839,7 +844,7 @@ body {
     box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
 }
 .boxMail .boxMail-container .card2 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     padding: 20px 0px 10px 60px;
     opacity: 0;
     visibility: hidden;
@@ -864,7 +869,7 @@ body {
     }
 }
 .boxMail .boxMail-container .card2 h2{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     padding: 0px 20px;
     text-indent: 20px;
     font-size: 22px;
@@ -1052,7 +1057,7 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 28px;
-        padding: 20px 14px 90px;
+        padding: 70x 14px 90px;
     }
 
     .content .left,
@@ -1065,22 +1070,22 @@ body {
     }
 
     .right .box__account {
-        width: min(300px, 72vw);
+        width: min(279px, 66vw);
         top: -20px;
-        left: 10px;
+        left: 0px;
     }
 
     /* balon lebih kecil & lebih dekat ke foto supaya tidak keluar layar */
     .right .balloon_one {
-        left: -14%;
-        top: 12%;
-        width: 42%;
+        left: -23%;
+        top: 25%;
+        width: 38%;
     }
 
     .right .balloon_two {
-        right: -14%;
-        top: 12%;
-        width: 42%;
+        right: -23%;
+        top: 25%;
+        width: 38%;
     }
 
     .cricle {
