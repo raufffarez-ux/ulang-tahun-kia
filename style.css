@@ -632,7 +632,7 @@ body {
     animation: opacityHeart 1s 1s forwards;
 }
 .content__letter .right .text__letter{
-    margin-top: 60px;
+    margin-top: 5px;
     padding: 20px 15px 10px 15px;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
@@ -1077,20 +1077,20 @@ body {
 
     /* balon lebih kecil & lebih dekat ke foto supaya tidak keluar layar */
     .right .balloon_one {
-        left: -23%;
+        left: -35%;
         top: 25%;
-        width: 38%;
+        width: 70%;
     }
 
     .right .balloon_two {
-        right: -23%;
+        right: -35%;
         top: 25%;
-        width: 38%;
+        width: 70%;
     }
 
     .cricle {
         top: -20px;
-        right: 2%;
+        right: 25%;
     }
 
     .decorate_bottom img,
@@ -1162,7 +1162,7 @@ body {
     .content__letter .right #mewmew {
         position: static;
         display: block;
-        width: 70px;
+        width: 130px;
         margin: 6px auto 0;
     }
 }
